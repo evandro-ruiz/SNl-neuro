@@ -1,0 +1,208 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc_id = CF1
+# text = PT no governo
+# sent_id = CF1-1
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a
+1	PT	PT	PROPN	B	Gender=Masc|Number=Sing	0	root	_	_
+2-3	no	_	_	I	_	_	_	_	_
+2	em	em	ADP	I	_	4	case	_	_
+3	o	o	DET	I	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	I	Gender=Masc|Number=Sing	1	nmod	_	_
+
+# text = BRASÍLIA Pesquisa Datafolha publicada hoje revela um dado supreendente: recusando uma postura radical, a esmagadora maioria (77%) dos eleitores quer o PT participando do Governo Fernando Henrique Cardoso.
+# sent_id = CF1-3
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a &W
+1	BRASÍLIA	Brasília	PROPN	B	Gender=Fem|Number=Sing	6	parataxis	_	_
+2	Pesquisa	Pesquisa	PROPN	B	ExtPos=PROPN|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Datafolha	Datafolha	PROPN	I	Number=Sing	2	flat:name	_	_
+4	publicada	publicar	VERB	I	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+5	hoje	hoje	ADV	I	_	4	advmod	_	_
+6	revela	revelar	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	um	um	DET	B	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dado	dado	NOUN	B	Gender=Masc|Number=Sing	6	obj	_	_
+9	supreendente	surpreendente	ADJ	I	Gender=Masc|Number=Sing|Typo=Yes	8	amod	_	CorrectForm=surpreendente|SpaceAfter=No
+10	:	:	PUNCT	O	_	26	punct	_	_
+11	recusando	recusar	VERB	O	VerbForm=Ger	26	advcl	_	_
+12	uma	um	DET	B	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	postura	postura	NOUN	B	Gender=Fem|Number=Sing	11	obj	_	_
+14	radical	radical	ADJ	I	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	O	_	26	punct	_	_
+16	a	o	DET	B	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	esmagadora	esmagador	ADJ	I	Gender=Fem|Number=Sing	18	amod	_	_
+18	maioria	maioria	NOUN	B	Gender=Fem|Number=Sing	26	nsubj	_	_
+19	(	(	PUNCT	O	_	21	punct	_	SpaceAfter=No
+20	77	77	NUM	O	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	O	_	18	appos	_	SpaceAfter=No
+22	)	)	PUNCT	O	_	21	punct	_	_
+23-24	dos	_	_	I	_	_	_	_	_
+23	de	de	ADP	I	_	25	case	_	_
+24	os	o	DET	I	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	eleitores	eleitor	NOUN	B	Gender=Masc|Number=Plur	18	nmod	_	_
+26	quer	querer	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+27	o	o	DET	B	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	PT	PT	PROPN	I	Gender=Masc|Number=Sing	29	nsubj	_	_
+29	participando	participar	VERB	O	VerbForm=Ger	26	ccomp	_	_
+30-31	do	_	_	O	_	_	_	_	_
+30	de	de	ADP	O	_	32	case	_	_
+31	o	o	DET	B	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Governo	governo	NOUN	B	Gender=Masc|Number=Sing	29	obj	_	_
+33	Fernando	Fernando	PROPN	I	ExtPos=PROPN|Gender=Masc|Number=Sing	32	nmod	_	_
+34	Henrique	Henrique	PROPN	I	Number=Sing	33	flat:name	_	_
+35	Cardoso	Cardoso	PROPN	I	Number=Sing	33	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	O	_	6	punct	_	_
+
+# text = Tem sentido -- aliás, muitíssimo sentido.
+# sent_id = CF1-4
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a &D
+1	Tem	ter	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sentido	sentido	NOUN	B	Gender=Masc|Number=Sing	1	obj	_	_
+3	--	--	PUNCT	O	_	1	punct	_	_
+4	aliás	aliás	ADV	O	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	O	_	7	punct	_	_
+6	muitíssimo	muitíssimo	DET	B	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	sentido	sentido	NOUN	B	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	O	_	1	punct	_	_
+
+# text = Muito mais do que nos tempos na ditadura, a solidez do PT está, agora, ameaçada.
+# sent_id = CF1-5
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a
+1	Muito	muito	ADV	O	_	2	advmod	_	_
+2	mais	mais	ADV	O	_	22	advmod	_	_
+3-4	do	_	_	O	_	_	_	_	_
+3	de	de	ADP	O	_	8	case	_	_
+4	o	o	PRON	O	Gender=Masc|Number=Sing|PronType=Dem	3	fixed	_	_
+5	que	que	PRON	O	Gender=Masc|Number=Sing|PronType=Rel	3	fixed	_	_
+6-7	nos	_	_	O	_	_	_	_	_
+6	em	em	ADP	O	_	8	case	_	_
+7	os	o	DET	B	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	tempos	tempo	NOUN	B	Gender=Masc|Number=Plur	2	obl	_	_
+9-10	na	_	_	I	_	_	_	_	_
+9	em	em	ADP	I	_	11	case	_	_
+10	a	o	DET	I	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ditadura	ditadura	NOUN	B	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	O	_	2	punct	_	_
+13	a	o	DET	B	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	solidez	solidez	NOUN	B	Gender=Fem|Number=Sing	22	nsubj	_	_
+15-16	do	_	_	I	_	_	_	_	_
+15	de	de	ADP	I	_	17	case	_	_
+16	o	o	DET	I	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	PT	PT	PROPN	I	Gender=Masc|Number=Sing	14	nmod	_	_
+18	está	estar	AUX	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	SpaceAfter=No
+19	,	,	PUNCT	O	_	20	punct	_	_
+20	agora	agora	ADV	O	_	22	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	O	_	20	punct	_	_
+22	ameaçada	ameaçar	VERB	B	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	O	_	22	punct	_	_
+
+# text = Nem Lula nem o partido ainda encontraram um discurso para se diferenciar.
+# sent_id = CF1-6
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a
+1	Nem	nem	CCONJ	O	_	2	cc	_	_
+2	Lula	Lula	PROPN	B	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	nem	nem	CCONJ	O	_	5	cc	_	_
+4	o	o	DET	B	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	partido	partido	NOUN	B	Gender=Masc|Number=Sing	2	conj	_	_
+6	ainda	ainda	ADV	O	_	7	advmod	_	_
+7	encontraram	encontrar	VERB	O	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+8	um	um	DET	B	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	discurso	discurso	NOUN	B	Gender=Masc|Number=Sing	7	obj	_	_
+10	para	para	SCONJ	O	_	12	mark	_	_
+11	se	se	PRON	O	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+12	diferenciar	diferenciar	VERB	O	VerbForm=Inf	9	acl	_	SpaceAfter=No
+13	.	.	PUNCT	O	_	7	punct	_	_
+
+# text = Eles se dizem oposição, mas ainda não informaram o que vão combater.
+# sent_id = CF1-7
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a
+1	Eles	eles	PRON	O	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	se	se	PRON	O	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
+3	dizem	dizer	VERB	O	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	oposição	oposição	NOUN	B	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	O	_	9	punct	_	_
+6	mas	mas	CCONJ	O	_	9	cc	_	_
+7	ainda	ainda	ADV	O	_	8	advmod	_	_
+8	não	não	ADV	O	Polarity=Neg	9	advmod	_	_
+9	informaram	informar	VERB	O	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	conj	_	_
+10	o	o	PRON	O	Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	_
+11	que	que	PRON	O	Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+12	vão	ir	AUX	O	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	combater	combater	VERB	O	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	O	_	3	punct	_	_
+
+# text = Muitas das prioridades do novo governo coincidem com as prioridades do PT.
+# sent_id = CF1-8
+# source = CETENFolha n=1 cad=Opinião sec=opi sem=94a
+1	Muitas	muito	PRON	B	Gender=Fem|Number=Plur|PronType=Ind	9	nsubj	_	_
+2-3	das	_	_	I	_	_	_	_	_
+2	de	de	ADP	I	_	4	case	_	_
+3	as	o	DET	I	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	prioridades	prioridade	NOUN	B	Gender=Fem|Number=Plur	1	nmod	_	_
+5-6	do	_	_	I	_	_	_	_	_
+5	de	de	ADP	I	_	8	case	_	_
+6	o	o	DET	I	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	novo	novo	ADJ	I	Gender=Masc|Number=Sing	8	amod	_	_
+8	governo	governo	NOUN	B	Gender=Masc|Number=Sing	4	nmod	_	_
+9	coincidem	coincidir	VERB	O	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	com	com	ADP	O	_	12	case	_	_
+11	as	o	DET	B	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	prioridades	prioridade	NOUN	B	Gender=Fem|Number=Plur	9	obj	_	_
+13-14	do	_	_	I	_	_	_	_	_
+13	de	de	ADP	I	_	15	case	_	_
+14	o	o	DET	I	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	PT	PT	PROPN	I	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	O	_	9	punct	_	_
+
+# newdoc_id = CF2
+# text = «Confissões» chega a Portugal
+# sent_id = CF2-1
+# source = CETENFolha n=2 cad=TV Folha sec=clt-soc sem=94a
+1	«	«	PUNCT	O	_	2	punct	_	SpaceAfter=No
+2	Confissões	Confissões	PROPN	B	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	»	»	PUNCT	O	_	2	punct	_	_
+4	chega	chegar	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	B	_	6	case	_	_
+6	Portugal	Portugal	PROPN	I	Gender=Masc|Number=Sing	4	obl	_	_
+
+# text = Desde o último dia 13, «Confissões de Adolescente» pode ser vista pelos teens portugueses.
+# sent_id = CF2-2
+# source = CETENFolha n=2 cad=TV Folha sec=clt-soc sem=94a
+1	Desde	desde	ADP	O	_	4	case	_	_
+2	o	o	DET	B	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	último	último	ADJ	I	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	dia	dia	NOUN	B	Gender=Masc|Number=Sing	14	obl	_	_
+5	13	13	NUM	I	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	O	_	4	punct	_	_
+7	«	«	PUNCT	O	_	8	punct	_	SpaceAfter=No
+8	Confissões	Confissões	PROPN	B	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+9	de	de	ADP	I	_	10	case	_	_
+10	Adolescente	Adolescente	PROPN	I	Number=Sing	8	nmod	_	SpaceAfter=No
+11	»	»	PUNCT	O	_	8	punct	_	_
+12	pode	poder	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ser	ser	AUX	O	VerbForm=Inf	14	aux:pass	_	_
+14	vista	ver	VERB	O	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+15-16	pelos	_	_	O	_	_	_	_	_
+15	por	por	ADP	O	_	17	case	_	_
+16	os	o	DET	B	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	teens	teen	NOUN	B	Gender=Masc|Number=Plur	14	obl:agent	_	_
+18	portugueses	português	ADJ	I	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	O	_	14	punct	_	_
+
+# text = A série exibida aqui pela Cultura estreou na TVI de Portugal.
+# sent_id = CF2-3
+# source = CETENFolha n=2 cad=TV Folha sec=clt-soc sem=94a
+1	A	o	DET	B	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	série	série	NOUN	B	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	exibida	exibir	VERB	O	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	aqui	aqui	ADV	O	_	3	advmod	_	_
+5-6	pela	_	_	O	_	_	_	_	_
+5	por	por	ADP	O	_	7	case	_	_
+6	a	o	DET	B	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cultura	cultura	NOUN	B	Gender=Fem|Number=Sing	3	obl:agent	_	_
+8	estreou	estrear	VERB	O	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	na	_	_	O	_	_	_	_	_
+9	em	em	ADP	O	_	11	case	_	_
+10	a	o	DET	B	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	TVI	TVI	PROPN	I	Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	I	_	13	case	_	_
+13	Portugal	Portugal	PROPN	I	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	O	_	8	punct	_	_
